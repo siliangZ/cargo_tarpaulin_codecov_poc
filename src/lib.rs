@@ -1,9 +1,14 @@
+mod child;
 fn func1() {
     println!("function 1");
 }
 
 fn func2() {
     println!("function 2");
+}
+
+fn func3() {
+    println!("untested function");
 }
 
 mod tests {
